@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+div.nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.nav-header {
+  padding: 15px 5%;
+  text-align: initial;
+}
+
+a.nav-link {
+  text-transform: uppercase;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+button.navbar-toggler {
+  border-color: white;
 }
