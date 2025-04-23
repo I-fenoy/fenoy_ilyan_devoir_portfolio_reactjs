@@ -79,6 +79,18 @@ footer {
 
 }
 
+@media screen and (min-width: 992px) {
+  footer {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+  }
+
+  div.footer-block {
+    width: 33%;
+  }
+}
+
 div.footer-logo {
   width: 16%;
   display: flex;
