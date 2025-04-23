@@ -68,3 +68,31 @@ button.navbar-toggler {
   }
 
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  text-align: left;
+  padding: 15px 5%;
+
+}
+
+div.footer-logo {
+  width: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-img {
+  opacity: 0.3;
+}
+
+.social-img:hover {
+  opacity: initial;
+}
+
+a {
+  color: white;
+}
