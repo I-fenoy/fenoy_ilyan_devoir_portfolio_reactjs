@@ -60,3 +60,11 @@ a.nav-link:hover {
 button.navbar-toggler {
   border-color: white;
 }
+
+@media screen and (min-width: 992px) {
+  div.div-nav-link {
+    all: initial;
+
+  }
+
+}
