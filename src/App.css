@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .App-logo {
@@ -79,7 +83,7 @@ footer {
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   footer {
     display: flex;
     flex-direction: initial;
@@ -107,4 +111,11 @@ div.footer-logo {
 
 a {
   color: white;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: 600;
 }
