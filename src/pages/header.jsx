@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <header>
             <nav class="navbar navbar-expand-lg bg-dark nav-header">
                 <div class="container-fluid">
-                    <h1 class="navbar-brand text-light" href="#">JOHN DOE</h1>
+                    <h1 class="navbar-brand text-light" >JOHN DOE</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -12,23 +14,23 @@ const Header = () => {
 
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                <Link to="/" class="nav-link active text-light" aria-current="page" >Home</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">services</a>
+                                <Link to="/services" class="nav-link active text-light" aria-current="page" >services</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">portfolio</a>
+                                <Link to="/portfolio" class="nav-link active text-light" aria-current="page" >portfolio</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Contact</a>
+                                <Link to="/contact" class="nav-link active text-light" aria-current="page" >Contact</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">mentions légales</a>
+                                <Link class="nav-link active text-light" aria-current="page" >mentions légales</Link>
                             </li>
 
                         </ul>

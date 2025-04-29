@@ -1,0 +1,42 @@
+p.p-services {}
+
+div.line {
+    border-bottom: 5px solid blue;
+    justify-self: center;
+    width: 20%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+img.bg-img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 5%;
+}
+
+h2.card-title {
+    margin-top: 0%;
+}
+
+div.card-body {
+    padding-top: 0%;
+}
+
+img.card-img-top {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    color: aqua;
+}
+
+div.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-bottom: 4%;
+
+}
