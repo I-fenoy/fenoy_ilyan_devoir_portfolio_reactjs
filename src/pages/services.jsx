@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <main>
             <img src={banner} className="bg-img"></img>
-            <h1>Mon offre de services</h1>
+            <h1 className="services">Mon offre de services</h1>
             <p className="p-services">Voici les prestations sur lesquelles je peux intervenir</p>
             <div className="line"></div>
 
