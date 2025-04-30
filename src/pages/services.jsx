@@ -12,7 +12,7 @@ const Services = () => {
             <p className="p-services">Voici les prestations sur lesquelles je peux intervenir</p>
             <div className="line"></div>
 
-            <section>
+            <section className="services-section">
                 <div class="card" >
                     <img src={brush} class="card-img-top"  ></img>
                     <div class="card-body">

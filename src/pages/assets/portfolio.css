@@ -1,0 +1,49 @@
+div.line {
+    width: 20%;
+}
+
+img.card-img {
+    width: 100%;
+    border-radius: initial;
+}
+
+div.card {
+    padding: initial;
+}
+
+div.card-body {
+    padding-top: 10px;
+}
+
+div.card-use {
+    font-weight: lighter;
+    font-size: smaller;
+    font-style: italic;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    background-color: rgb(207, 207, 207, 0.2);
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+p.use-text {
+    padding: 0%;
+    margin: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    .porfolio-section {
+
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    div.card {
+        width: 30%;
+    }
+}
