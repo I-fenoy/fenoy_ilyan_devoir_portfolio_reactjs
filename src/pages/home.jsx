@@ -15,7 +15,7 @@ const Home = () => {
 
             <section className='about_section'>
                 <div className="section-div">
-                    <h3>A propos</h3>
+                    <h3 className="home">A propos</h3>
                     <img src={john_doe_about} className="img-fluid" ></img>
                     <p className="p-about">
                         Lorem ipsum dolor sit amet consectetur adipisicing

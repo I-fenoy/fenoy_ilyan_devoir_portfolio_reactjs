@@ -119,3 +119,7 @@ h3,
 strong {
   font-weight: 600;
 }
+
+.footer-block a {
+  text-decoration: none;
+}

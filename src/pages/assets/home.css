@@ -34,7 +34,7 @@ section.about_section {
     margin-bottom: 50px;
 }
 
-h3 {
+h3.home {
     border-bottom: 4px solid rgb(0, 115, 255);
     padding-bottom: 15px;
     margin-bottom: 30px;
