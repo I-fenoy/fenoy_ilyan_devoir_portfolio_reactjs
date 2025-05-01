@@ -9,19 +9,20 @@ const Contact = () => {
             <div className="line"></div>
 
             <section className="contact-section">
-                <h2 className="contact-h2">Formulaire de contact</h2>
-                <form action="post" className="contact-form">
-                    <input type="text" class="form-control" placeholder="Votre nom"></input>
-                    <input type="text" class="form-control" placeholder="Votre adresse mail"></input>
-                    <input type="text" class="form-control" placeholder="Votre numéro de téléphone"></input>
-                    <input type="text" class="form-control" placeholder="Sujet"></input>
-                    <textarea class="form-control" placeholder="Votre message" rows={15}  ></textarea>
-                    <button type="button" class="btn btn-primary">Envoyer</button>
-                </form>
-                <hr />
+                <div className="div-contact" >
+                    <h2 className="contact-h2">Formulaire de contact</h2>
+                    <form action="post" className="contact-form">
+                        <input type="text" class="form-control" placeholder="Votre nom"></input>
+                        <input type="text" class="form-control" placeholder="Votre adresse mail"></input>
+                        <input type="text" class="form-control" placeholder="Votre numéro de téléphone"></input>
+                        <input type="text" class="form-control" placeholder="Sujet"></input>
+                        <textarea class="form-control" placeholder="Votre message" rows={15}  ></textarea>
+                        <button type="button" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
 
 
-                <div className='address-contact'>
+                <div className='info-contact'>
                     <h2 className="contact-h2">Mes coordonées</h2>
                     <address>
                         <h3 className='d-block'>John Doe</h3>
