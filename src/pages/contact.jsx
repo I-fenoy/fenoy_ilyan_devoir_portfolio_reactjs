@@ -12,12 +12,12 @@ const Contact = () => {
                 <div className="div-contact" >
                     <h2 className="contact-h2">Formulaire de contact</h2>
                     <form action="post" className="contact-form">
-                        <input type="text" class="form-control" placeholder="Votre nom"></input>
-                        <input type="text" class="form-control" placeholder="Votre adresse mail"></input>
-                        <input type="text" class="form-control" placeholder="Votre numéro de téléphone"></input>
-                        <input type="text" class="form-control" placeholder="Sujet"></input>
-                        <textarea class="form-control" placeholder="Votre message" rows={15}  ></textarea>
-                        <button type="button" class="btn btn-primary">Envoyer</button>
+                        <input type="text" className="form-control" placeholder="Votre nom"></input>
+                        <input type="text" className="form-control" placeholder="Votre adresse mail"></input>
+                        <input type="text" className="form-control" placeholder="Votre numéro de téléphone"></input>
+                        <input type="text" className="form-control" placeholder="Sujet"></input>
+                        <textarea className="form-control" placeholder="Votre message" rows={15}  ></textarea>
+                        <button type="button" className="btn btn-primary">Envoyer</button>
                     </form>
                 </div>
 

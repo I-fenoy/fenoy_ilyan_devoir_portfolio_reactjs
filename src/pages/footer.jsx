@@ -4,7 +4,7 @@ import twitter from "../images/logo/twitter.png";
 
 const Footer = () => {
     return (
-        <footer class="bg-dark">
+        <footer className="bg-dark">
             <div className='footer-div1 footer-block'>
                 <address>
                     <strong className='d-block'>John Doe</strong>

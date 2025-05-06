@@ -17,72 +17,72 @@ const Portfolio = () => {
             <div className="line"></div>
 
             <section className="porfolio-section">
-                <div class="card">
-                    <img src={freshfood} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Fresh Food</h2>
-                        <p class="card-text">Site de vente de produits frais en ligne</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={freshfood} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Fresh Food</h2>
+                        <p className="card-text">Site de vente de produits frais en ligne</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">Site réalisé avec PHP et MySQL</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src={akira} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Restaurant Akira</h2>
-                        <p class="card-text">Site de vente de produits frais en ligne</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={akira} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Restaurant Akira</h2>
+                        <p className="card-text">Site de vente de produits frais en ligne</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">Site réalisé avec WordPress</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src={bienetre} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Espace bien-être</h2>
-                        <p class="card-text">Site de vente de produits frais en ligne</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={bienetre} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Espace bien-être</h2>
+                        <p className="card-text">Site de vente de produits frais en ligne</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">Site réalisé avec LARAVEL</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src={seo} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">SEO</h2>
-                        <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={seo} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">SEO</h2>
+                        <p className="card-text">Amélioration du référencement d'un site e-commerce</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">Utilisation des outils SEO</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src={api} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Création d'une API</h2>
-                        <p class="card-text">Création d'une API RESTFULL publique</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={api} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Création d'une API</h2>
+                        <p className="card-text">Création d'une API RESTFULL publique</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">PHP - SYMFONY </p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src={maquette} class="card-img" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Maquette d'un site web</h2>
-                        <p class="card-text">Création du prototype d'un site</p>
-                        <a href="#" class="btn btn-primary">voir le site</a>
+                <div className="card">
+                    <img src={maquette} className="card-img" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Maquette d'un site web</h2>
+                        <p className="card-text">Création du prototype d'un site</p>
+                        <a href="#" className="btn btn-primary">voir le site</a>
                     </div>
                     <div className="card-use">
                         <p className="use-text">Réalisé avec FIGMA </p>

@@ -13,11 +13,11 @@ const Services = () => {
             <div className="line"></div>
 
             <section className="services-section">
-                <div class="card" >
-                    <img src={brush} class="card-img-top"  ></img>
-                    <div class="card-body">
-                        <h2 class="card-title">UX Design</h2>
-                        <p class="card-text">L'UX Design est une discipline qui consiste à concevoir
+                <div className="card" >
+                    <img src={brush} className="card-img-top"  ></img>
+                    <div className="card-body">
+                        <h2 className="card-title">UX Design</h2>
+                        <p className="card-text">L'UX Design est une discipline qui consiste à concevoir
                             des produits (sites web, applications mobiles, logiciels,
                             objets connectes, etc.) en placant l'utilisateur au centre
                             des préoccupations. L'objectif est de rendre l'expérience
@@ -25,22 +25,22 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="card" >
-                    <img src={codeslash} class="card-img-top" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Développement web</h2>
-                        <p class="card-text">Le développement de sites web consiste à créer des
+                <div className="card" >
+                    <img src={codeslash} className="card-img-top" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Développement web</h2>
+                        <p className="card-text">Le développement de sites web consiste à créer des
                             sites internet en utilisant des langages de programmation
                             (HTML, CSS, JavaScript, PHP, etc.) et des frameworks
                             (Bootstrap, React, Angular, etc.).</p>
                     </div>
                 </div>
 
-                <div class="card" >
-                    <img src={search} class="card-img-top" alt="..."></img>
-                    <div class="card-body">
-                        <h2 class="card-title">Referencement</h2>
-                        <p class="card-text">Le référencement naturel (SEO) est une technique qui
+                <div className="card" >
+                    <img src={search} className="card-img-top" alt="..."></img>
+                    <div className="card-body">
+                        <h2 className="card-title">Referencement</h2>
+                        <p className="card-text">Le référencement naturel (SEO) est une technique qui
                             consiste a optimiser un site web pour le faire remonter
                             dans les résultats des moteurs de recherche (Google,
                             Bing, Yahoo, etc.). L'objectif est d'attirer un maximum de

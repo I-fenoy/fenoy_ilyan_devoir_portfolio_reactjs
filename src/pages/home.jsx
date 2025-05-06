@@ -9,7 +9,7 @@ const Home = () => {
                     <h1> Bonjour, je suis <strong>John Doe</strong></h1>
                     <h2>Développeur web full stack</h2>
                 </div>
-                <button type="button" class="btn btn-danger">En savoir plus</button>
+                <button type="button" className="btn btn-danger" id="btn-more">En savoir plus</button>
 
             </section >
 
@@ -41,28 +41,28 @@ const Home = () => {
                     <h3>Mes compétences </h3>
 
                     <p className="p-progress-bar" >HTML5 90%</p>
-                    <div class="progress ">
-                        <div class="progress-bar bg-danger " role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress ">
+                        <div className="progress-bar bg-danger " role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
                     <p className="p-progress-bar">CSS3 80%</p>
-                    <div class="progress ">
-                        <div class="progress-bar bg-info " style={{ width: "80%" }} role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress ">
+                        <div className="progress-bar bg-info " style={{ width: "80%" }} role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
                     <p className="p-progress-bar">JAVASCRIPT 70%</p>
-                    <div class="progress ">
-                        <div class="progress-bar bg-warning " style={{ width: "70%" }} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress ">
+                        <div className="progress-bar bg-warning " style={{ width: "70%" }} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
                     <p className="p-progress-bar">PHP 60%</p>
-                    <div class="progress ">
-                        <div class="progress-bar bg-success " style={{ width: "60%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress ">
+                        <div className="progress-bar bg-success " style={{ width: "60%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div >
 
                     <p className="p-progress-bar">REACT 50%</p>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" style={{ width: "50%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" style={{ width: "50%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div >
                 </div>
 
