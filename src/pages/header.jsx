@@ -30,7 +30,7 @@ const Header = () => {
                             </li>
 
                             <li class="nav-item">
-                                <Link class="nav-link active text-light" aria-current="page" >mentions légales</Link>
+                                <Link to='/legalsnotices' class="nav-link active text-light" aria-current="page" >mentions légales</Link>
                             </li>
 
                         </ul>
