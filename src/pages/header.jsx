@@ -5,7 +5,7 @@ const Header = () => {
         <header>
             <nav className="navbar navbar-expand-lg bg-dark nav-header">
                 <div className="container-fluid">
-                    <h1 className="navbar-brand text-light" ><a href="#" data-bs-toggle="modal" data-bs-target="#monModal">JOHN DOE</a></h1>
+                    <h1 className="navbar-brand text-light" ><a className="a-header" href="#" data-bs-toggle="modal" data-bs-target="#monModal">JOHN DOE</a></h1>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -38,23 +38,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <div class="modal fade" id="monModal" tabindex="-1" aria-labelledby="monModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content  bg-dark">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="monModalLabel">Titre du Modal</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
-                        </div>
-                        <div class="modal-body">
-                            Contenu du modal ici.
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn btn-primary">Enregistrer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </header>
     )
 }
