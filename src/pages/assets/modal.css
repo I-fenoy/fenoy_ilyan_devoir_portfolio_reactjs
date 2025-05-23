@@ -19,8 +19,14 @@ div.modal-div {
 div.modal-picture-div {
     border: initial;
     padding: initial;
+    margin: initial;
     padding-top: 5%;
 
+}
+
+div.modal-picture-div div {
+    margin: 0% 5%;
+    padding: 2%;
 }
 
 div.modal-div p {
@@ -29,4 +35,8 @@ div.modal-div p {
 
 div.modal-footer {
     margin-top: 5%;
+}
+
+img.modal-img {
+    justify-self: center;
 }

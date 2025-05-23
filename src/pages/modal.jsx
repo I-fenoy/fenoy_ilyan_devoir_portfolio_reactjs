@@ -30,7 +30,7 @@ const Modal = () => {
                     </div>
                     <div class="modal-body">
                         <div className='modal-div modal-picture-div'>
-                            <img src={user.avatar_url} alt="#" /><br />
+                            <img src={user.avatar_url} alt="#" className='modal-img' /><br />
                             <div>
                                 <a href="#">{user.name}</a>
                             </div>
