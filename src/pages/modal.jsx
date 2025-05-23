@@ -29,23 +29,26 @@ const Modal = () => {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
                     </div>
                     <div class="modal-body">
-                        <div>
+                        <div className='modal-div modal-picture-div'>
                             <img src={user.avatar_url} alt="#" /><br />
-                            <a href="#">{user.name}</a>
-                        </div>
-                        <div>
+                            <div>
+                                <a href="#">{user.name}</a>
+                            </div>
 
                         </div>
-                        <div>
+                        <div className='modal-div'>
+
+                        </div>
+                        <div className='modal-div'>
                             <p>{user.bio} </p>
                         </div>
-                        <div>
+                        <div className='modal-div'>
                             <p>Repositories : {user.public_repos} </p>
                         </div>
-                        <div>
+                        <div className='modal-div'>
                             <p>Followers : {user.followers}</p>
                         </div>
-                        <div>
+                        <div className='modal-div'>
                             <p>Following : {user.following} </p>
                         </div>
                     </div>

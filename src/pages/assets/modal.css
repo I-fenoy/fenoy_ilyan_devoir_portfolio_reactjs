@@ -1,4 +1,32 @@
+div.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
 div.modal-content {
     color: white;
+    width: 95%;
     text-align: left;
+    border: 1px solid rgba(255, 253, 253, 0.1);
+}
+
+div.modal-div {
+    margin: 0% 5%;
+    padding: 2%;
+    border-top: 1px solid rgba(255, 253, 253, 0.2);
+}
+
+div.modal-picture-div {
+    border: initial;
+    padding: initial;
+    padding-top: 5%;
+
+}
+
+div.modal-div p {
+    margin: initial;
+}
+
+div.modal-footer {
+    margin-top: 5%;
 }
