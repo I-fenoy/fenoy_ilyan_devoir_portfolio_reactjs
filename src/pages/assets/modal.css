@@ -26,11 +26,7 @@ div.modal-picture-div {
 
 }
 
-div.modal-picture-div div {
-    margin: 0% 5%;
-    padding: 2%;
 
-}
 
 div.modal-div p {
     margin: initial;
@@ -42,11 +38,31 @@ div.modal-footer {
 
 img.modal-img {
     align-self: center;
+    width: 100%;
 }
 
-svg.svg-float {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    /* remettre la taille du texte ici */
+
+svg {
+    margin: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    div.modal-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.modal-picture-div {
+        width: 50%;
+    }
+
+    img.modal-img {
+        align-self: center;
+        width: 70%;
+    }
+
+    div.modal-user-info {
+        width: 50%;
+    }
+
 }
