@@ -3,6 +3,16 @@ main {
     align-items: center;
 }
 
+h1.home-h1 {
+    font-size: 2.7rem;
+    margin-bottom: 5%;
+}
+
+h2.home-h2 {
+    margin-bottom: 5%;
+    font-size: 2.2rem;
+}
+
 section.first-section {
     height: 1100px;
     background-image: url(/src/images/hero-bg.jpg);

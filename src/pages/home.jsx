@@ -6,8 +6,8 @@ const Home = () => {
         <main>
             <section className="first-section">
                 <div className="div-presentation">
-                    <h1> Bonjour, je suis <strong>John Doe</strong></h1>
-                    <h2>Développeur web full stack</h2>
+                    <h1 className="home-h1"> Bonjour, je suis <strong>John Doe</strong></h1>
+                    <h2 className="home-h2">Développeur web full stack</h2>
                 </div>
                 <button type="button" className="btn btn-danger" id="btn-more" data-bs-toggle="modal" data-bs-target="#monModal">En savoir plus</button>
 
@@ -38,7 +38,7 @@ const Home = () => {
 
 
                 <div className="section-div">
-                    <h3>Mes compétences </h3>
+                    <h3 className="home">Mes compétences </h3>
 
                     <p className="p-progress-bar" >HTML5 90%</p>
                     <div className="progress ">
