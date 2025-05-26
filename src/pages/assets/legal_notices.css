@@ -9,5 +9,10 @@ a.a-address {
 }
 
 a.a-host-credits {
-    color: rgba(0, 148, 221, 0.941)
+    color: #0d6efd;
+}
+
+svg.legal-svg {
+    margin-right: 10px;
+    color: black;
 }
