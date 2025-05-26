@@ -87,6 +87,7 @@ div.progress {
     }
 
     button.home-btn {
+        min-width: 135px;
         width: 10%;
         height: 45px;
     }
