@@ -9,7 +9,7 @@ const Home = () => {
                     <h1 className="home-h1"> Bonjour, je suis <strong>John Doe</strong></h1>
                     <h2 className="home-h2">Développeur web full stack</h2>
                 </div>
-                <button type="button" className="btn btn-danger" id="btn-more" data-bs-toggle="modal" data-bs-target="#monModal">En savoir plus</button>
+                <button type="button" className="btn btn-danger home-btn" id="btn-more" data-bs-toggle="modal" data-bs-target="#monModal">En savoir plus</button>
 
             </section >
 
