@@ -13,9 +13,9 @@ const Footer = () => {
                     <a href='tel:1020304050' target='_blank' className='footer-link d-block active'>10 20 30 40 50</a>
                     <a href='mailto:john.doe@gmaiil.com' target='_blank' className='footer-link d-block active'>john.doe@gmail.com</a>
                     <div className='footer-logo'>
-                        <a className='social-img active' target="_blank"><img src={github} ></img></a>
-                        <a className='social-img active' target="_blank"><img src={linkedin} ></img></a>
-                        <a className='social-img active' target="_blank"><img src={twitter} ></img></a>
+                        <a href="https://github.com/github-john-doe" className='social-img active' target="_blank"><img src={github} ></img></a>
+                        <a href="https://fr.linkedin.com/" className='social-img active' target="_blank"><img src={linkedin} ></img></a>
+                        <a href="https://x.com/" className='social-img active' target="_blank"><img src={twitter} ></img></a>
                     </div>
                 </address>
             </div>
