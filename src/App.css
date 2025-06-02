@@ -42,6 +42,9 @@
   }
 }
 
+.header-h1 {
+  text-decoration: none;
+}
 
 .a-header {
   text-decoration: none;
@@ -57,11 +60,12 @@ nav.nav-header {
   text-align: initial;
 }
 
-a.nav-link {
+.nav-link {
   text-transform: uppercase;
 }
 
-a.nav-link:hover {
+.nav-link:hover,
+.footer-link:hover {
   text-decoration: underline;
   font-weight: 600;
 }
