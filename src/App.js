@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import {Routes, Route} from "react-router-dom";
-import Header from "./pages/header";
-import Footer from "./pages/footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import Home from "./pages/home.jsx";
 import Services from "./pages/services.jsx";
 import Portfolio from "./pages/portfolio.jsx"
