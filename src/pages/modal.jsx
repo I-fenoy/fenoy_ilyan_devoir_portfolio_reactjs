@@ -13,7 +13,6 @@ const Modal = () => {
         const res = await fetch('https://api.github.com/users/github-john-doe');
         const json = await res.json();
         setUser(json);
-        console.log(json)
     }
 
     useEffect(() => {
