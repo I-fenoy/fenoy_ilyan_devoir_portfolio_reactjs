@@ -15,7 +15,7 @@ const Legalnotices = () => {
                                 Editeur du site
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
+                        <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse">
                             <div className="accordion-body">
                                 <h2>John Doe</h2> <br />
                                 <address className="legal-address">
