@@ -27,11 +27,10 @@ Ce site a été conçu pour présenter son profil, ses compétences et ses proje
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/I-fenoy/Fenoy_Ilyan_Devoir_3_CV_HTML_CSS
-cd Fenoy_Ilyan_Devoir_3_CV_HTML_CSS
-
+git https://github.com/I-fenoy/fenoy_ilyan_devoir_portfolio_reactjs
+cd fenoy_ilyan_devoir_portfolio_reactjs
 # Installer les dépendances
 npm install
 
 # Lancer le serveur de développement
-npm run dev  # ou npm start selon la configuration
+npm start
