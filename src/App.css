@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
 
 .App-logo {
@@ -32,7 +36,107 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-h1 {
+  text-decoration: none;
+}
+
+.a-header {
+  text-decoration: none;
+}
+
+div.nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.nav-header {
+  padding: 15px 5%;
+  text-align: initial;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.footer-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+button.navbar-toggler {
+  border-color: white;
+}
+
+@media screen and (min-width: 992px) {
+  div.div-nav-link {
+    all: initial;
+
+  }
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  text-align: left;
+  padding: 15px 5%;
+
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+
+  }
+
+  div.footer-block {
+    width: 33%;
+  }
+}
+
+div.footer-logo {
+  width: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-img {
+  opacity: 0.3;
+}
+
+.social-img:hover {
+  opacity: initial;
+}
+
+a {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: 600;
+}
+
+.footer-block a {
+  text-decoration: none;
+}
+
+h1.navbar-brand {
+  margin-bottom: 0%;
 }

@@ -1,0 +1,94 @@
+main {
+
+    align-items: center;
+}
+
+h1.home-h1 {
+    font-size: 2.7rem;
+    margin-bottom: 5%;
+}
+
+h2.home-h2 {
+    margin-bottom: 5%;
+    font-size: 2.2rem;
+}
+
+section.first-section {
+    height: 1100px;
+    background-image: url(/src/images/hero-bg.jpg);
+    background-color: rgba(255, 255, 255, 0.35);
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+div.div-presentation {
+
+    color: white;
+}
+
+.p-about {
+    text-align: left;
+}
+
+section.about_section {
+    width: 95%;
+    padding: 5%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px 0 rgb(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+h3.home {
+    border-bottom: 4px solid rgb(0, 115, 255);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.p-progress-bar {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+div.progress {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .about_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1%;
+    }
+
+    section.about_section {
+        width: 70%;
+    }
+
+    div.section-div {
+        width: 50%;
+    }
+
+    h1.home-h1 {
+        font-size: 5rem;
+        margin-bottom: 5%;
+    }
+
+    h2.home-h2 {
+        margin-bottom: 5%;
+        font-size: 4rem;
+    }
+
+    button.home-btn {
+        min-width: 135px;
+        width: 10%;
+        height: 45px;
+    }
+}

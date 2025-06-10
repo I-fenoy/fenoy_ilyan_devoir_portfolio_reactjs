@@ -1,0 +1,18 @@
+div.accordion {
+    text-align: left;
+    color: black;
+}
+
+a.a-address {
+    color: inherit;
+    text-decoration: none
+}
+
+a.a-host-credits {
+    color: #0d6efd;
+}
+
+svg.legal-svg {
+    margin-right: 10px;
+    color: black;
+}
